@@ -8,11 +8,11 @@ download app folder
 run src folder
 
 ## Usage
-# pattern lock enabled
-# take photo, returns photo
-# use of credentials enabled
-# login and signup feature available
-# stores user info
+pattern lock enabled
+take photo, returns photo
+use of credentials enabled
+login and signup feature available
+stores user info
 
 ## Contribution
 Ching
