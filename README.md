@@ -27,8 +27,8 @@ stores user info
 * worked on drawer menu
 * worked on side menu
 
-* pull request are welcome
-* please update test cases per request
+#### pull request are welcome
+#### please update test cases per request
 
 ## License
 http://www.apache.org/licenses/LICENSE-2.0
