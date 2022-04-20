@@ -15,15 +15,15 @@ login and signup feature available
 stores user info
 
 ## Contribution
-Ching
+#### Ching
 * worked on pattern lock
 * worked signup feature
-Agapitus
+#### Agapitus
 * worked user credential login
 * worked on camera
-Cameron
+#### Cameron
 * created activities
-Michelle
+#### Michelle
 * worked on drawer menu
 * worked on side menu
 
