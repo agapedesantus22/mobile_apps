@@ -4,7 +4,7 @@
 photo taking app, stores photo in list of 3 galleries to define privacy and levels of authenticity.
 
 ## Installation
-download app folder
+download most recent project folder
 run src folder
 
 ## Usage
