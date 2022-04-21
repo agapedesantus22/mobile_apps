@@ -23,6 +23,7 @@ stores user info
 * worked on camera
 #### Cameron
 * created activities
+* worked on location services
 #### Michelle
 * worked on drawer menu
 * worked on side menu
