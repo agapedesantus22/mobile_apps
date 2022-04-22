@@ -19,7 +19,7 @@ stores user info
 * worked on pattern lock
 * worked on signup feature
 #### Agapitus
-* worked user credential login
+* worked on user credential login
 * worked on camera
 #### Cameron
 * created activities
