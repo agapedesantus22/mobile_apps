@@ -27,6 +27,7 @@ stores user info
 #### Michelle
 * worked on drawer menu
 * worked on side menu
+* worked on header menu
 
 #### pull request are welcome
 #### please update test cases per request
