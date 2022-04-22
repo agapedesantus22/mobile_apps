@@ -17,7 +17,7 @@ stores user info
 ## Contribution
 #### Ching
 * worked on pattern lock
-* worked signup feature
+* worked on signup feature
 #### Agapitus
 * worked user credential login
 * worked on camera
