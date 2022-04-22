@@ -1,1 +1,139 @@
+Software Development Project
+Electronic security photo
+
+Project description
+Photo taking app, stores photo in list of 3 galleries to define privacy and levels of authenticity. managed on android studio. languages: java, xml, sdks and dependencies were downloaded installed.
+
+Milestone and reporting	
+•	Requirements
+•	Design
+•	Implementation
+•	Testing
+•	Deployment & Maintenance
+
+Requirements
+Project feature and Ui
+•	Login, Logout
+•	User account
+•	Toolbar, button
+•	Home, camera, Users
+•	Gallery, Settings, Share, Location
+•	Logout
+
+
+
+
+
+
+Documentation plan
+Our code and project processes will be held on GitHub.
+ 
+ 
+Initial plan
+Sprints and tasks will be organized via Jira.
+ 
+Sprint (iteration timeline)
+1. February 7: logon services
+2. February 21: user accounts
+3. March 14: home page
+4. March 28: dashboard
+5. April 4: test summary
+ 
+Functional requirement
+Describes what the product does. Usually defines product features or end user demands, basic facilities that a system offer.
+Nonfunctional requirement
+Describes how the product works. Usually defines product properties basically quality constraints that the system must satisfy according to project contract.
+
+Design
+MVC
+This is the application's dynamic data structure, independent of the user interface. The view component is used for all the UI logic of the application. The controller acts as an interface between model and view components to process all business logic and incoming request. An MVC action would be, a User is requested on the browser, the controller creates an index action and asks the model to retrieve the user from the database. it returns with a query and an instance variable is created and can be accessed by the view to display the data on the browser.
+ 
+ 
+UAT
+This will be a test performed by end users or clients to ensure product reliability. This confirms a product's authenticity and reliability.
+
+Risks & issues
+•	Input exceeding length.
+•	User not writing to db.
+•	Contents displayed improperly.
+•	Duplicate users.
+
+
+
+
+
+
+Code architecture
+ 
+Data structure
+ 
+
+Implementation
+Functional requirement
+•	Logs a user in
+•	Takes a photo
+•	Saves photo
+•	Saves user
+
+Nonfunctional requirement
+•	Reads user
+•	Write user
+•	Reads image to imageview.
+
+Sprint (iteration timeline)
+•	logon services
+•	user accounts
+•	home page
+•	dashboard
+•	test summary
+
+Testing
+Test plan
+Our test will be penned around site functionality, site responsiveness, user validation, and authentication. System, Integration, and acceptance test will be conducted to test units of this application. A gray box test will be conducted to search for defects. This is done at functionality level like black box testing and access to internal coding to design test cases like white box.
+
+System Testing
+Type of software testing performed on a completely integrated system, to evaluate its compliance of the system with its corresponding requirements.
+Integration testing 
+Level of software testing involving combining units or components of a system to be tested as a group. 
+Acceptance testing
+Formal testing with respect to user needs, requirements and business processes conducted to determine whether to satisfy a systems requirement.
+Gray box
+The combination of black box testing where the internal structure of the product is unknown and white box testing where the internal structure is known.
+•	Incremental feature
+•	Internal design
+
+Smoke testing
+Type of testing comprising of non-exhaustive sets of tests ensuring most functions work. Used in deciding if a build stable enough to proceed with further testing.
+System Testing  Integration testing  Acceptance testing
+This will be a test performed by end users or clients to ensure product reliability. This confirms a product's authenticity and reliability.
+ 
+Deployment
+Test plan/ test case
+Login, logout
+ 	Description	Process	Expected result	Status
+username required & password required	Gets username and password from user	Username and password returned	Request returned	success
+logon button required	Button is clicked	New page returned	Request returned	success
+saves user in db	User is saved in db	Data displayed on table	Request returned	pass
+ 
+ 
+User accounts
+ 	Description	Process	Expected result	Status
+Read user from database	User is read from db	A select statement is issued	Request returned	pass
+list of users displayed	Users stored in db	A select statement is returned	Request returned	success
+Edit actions displayed	Button is clicked	New page returned	Request returned	success
+ 
+ 
+Home, camera, users
+ 	Description	Process	Expected result	Status
+Home
+	User signs into home page	Contents are displayed	Request returned	success
+Camera	Camera clicker is used	Image is displayed	Request returned	pass
+Users	User details are provided	List of users are present	Request returned	success
+ 
+ 
+gallery, share, location
+ 	Description	Process	Expected result	Status
+Gallery	Gallery activity works	Image stores on gallery page	Request returned	success
+Share	Share button works	List of clickable items are returned	Request returned	success
+Location	Returns location, longitude latitude.	Location services work	Request returned	pass
 
